@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@100;300;400&family=Quicksand:wght@300;500;700&family=Roboto+Slab:wght@100&family=Rozha+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: white;
+}
+
+.wrap-content-header {
+  position: relative;
+}
+
+.background-image {
+  margin: 10% 0 30px 10%;
+}
+
+.inner-bg-img {
+  position: absolute;
+  top: 35%;
+  right: 16%;
+}
+
+.inner-bg-img .title-bg h2 {
+  font-size: 72px;
+  font-weight: 500;
+  font-family: "Rozha One", serif;
+  margin-bottom: 30px;
+}
+
+.inner-bg-img .sub-title-bg {
+  padding-left: 20%;
+}
+
+.inner-bg-img .sub-title-bg span {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.wrap-banner-header {
+  padding: 120px 0;
+  background-color: #eaeafb;
+}
+
+.wrap-banner-header .left-banner {
+  margin-top: 3em;
+  padding: 0 3em;
+}
+
+.title-banner h2 {
+  font-size: 44px;
+  font-family: "Rozha One", serif;
+  margin-bottom: 30px;
+}
+.img-banner {
+  /* .right-banner { */
+  background-image: url(/img/background/banner1.webp);
+  width: 100%;
+  height: 370px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+
+.sub-text-banner p {
+  font-size: 14px;
+  padding-right: 4em;
+}
+
+/* Menu */
+.wrap-menu {
+  padding: 120px 0;
+  background-color: #e8e8dc;
+}
+
+.heading-menu {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.heading-menu h2 {
+  font-size: 44px;
+  font-family: "Rozha One", serif;
+}
+
+.heading-menu p {
+  font-size: 14px;
+  margin-top: 20px;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-menu {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.card-menu h4 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Rozha One", serif;
+}
+
+.card-menu p {
+  font-size: 14px;
+}
+
+.card-menu span {
+  font-style: 14px;
+}
+/* End: menu */
+
+/* Start: taste  */
+.wrap-taste {
+  padding: 80px 0;
+}
+
+.heading-taste {
+  margin-bottom: 60px;
+  display: inline-block;
+  width: 35%;
+  text-align: center;
+}
+
+.heading-taste h2 {
+  font-size: 40px;
+  font-family: "Rozha One", serif;
+}
+
+.heading-taste p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.card-taste img {
+  width: 100%;
+  height: auto;
+}
+/* End:taste */
+
+/* Start:contact */
+.wrap-content-contact {
+  display: inline-block;
+  width: 35%;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.wrap-content-contact h2 {
+  font-size: 40px;
+  font-family: "Rozha One", serif;
+}
+
+.wrap-content-contact p {
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+.wrap-content-contact a {
+  font-size: 14px;
+  padding: 10px 20px;
+  color: #eaeafb;
+  font-weight: 500;
+  background-color: #fe717a;
+}
+
+.wrap-content-contact a:hover {
+  background-color: #dc535c;
+}
+/* End:contact */
+
+.wrap-banner-footer {
+  background-image: url(/img/background/bg2.webp);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+
+.wrap-footer {
+  padding: 100px 0;
+}
+
+.wrap-footer .content-footer ul {
+  list-style: none;
+}
+
+.wrap-footer .content-footer li {
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+}
+
+@media (min-width: 719px) and (max-width: 1366px) {
+  /* .heading-menu p {
+    width: 70%;
+  } */
+
+  .wrap-banner-header .title-banner h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 666px) {
+  .wrap-banner-header .left-banner {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .title-banner h2 {
+    font-size: 36px;
+  }
+
+  .sub-text-banner p {
+    padding: 0;
+  }
+
+  .wrap-banner-header .right-banner .img-banner {
+    width: 100%;
+    height: 226px;
+  }
+}
